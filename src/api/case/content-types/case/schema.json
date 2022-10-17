@@ -13,52 +13,45 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "subtitle": {
-      "type": "string"
-    },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "thumbnail": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string",
+      "pluginOptions": {}
     },
     "about": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "role": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
-    "showcase": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     },
-    "urlSlug": {
-      "type": "uid"
+    "cover": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "showcase1": {
+      "type": "string"
+    },
+    "showcase2": {
+      "type": "string"
+    },
+    "showcase3": {
+      "type": "string"
+    },
+    "showcase4": {
+      "type": "string"
+    },
+    "showcase5": {
+      "type": "string"
     }
   }
 }

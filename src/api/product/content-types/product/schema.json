@@ -24,22 +24,24 @@
     "link": {
       "type": "string"
     },
-    "showcase": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "size": {
       "type": "float"
     },
-    "urlSlug": {
-      "type": "uid"
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "showcase1": {
+      "type": "string"
+    },
+    "showcase2": {
+      "type": "string"
+    },
+    "showcase3": {
+      "type": "string"
     }
   }
 }
