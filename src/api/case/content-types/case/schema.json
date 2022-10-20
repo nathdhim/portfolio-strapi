@@ -52,6 +52,16 @@
     },
     "showcase5": {
       "type": "string"
+    },
+    "maincover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
