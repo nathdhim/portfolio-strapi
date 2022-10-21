@@ -28,10 +28,6 @@
       "type": "richtext",
       "pluginOptions": {}
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "cover": {
       "type": "string"
     },
@@ -53,15 +49,11 @@
     "showcase5": {
       "type": "string"
     },
-    "maincover": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "category": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
     }
   }
 }
