@@ -54,6 +54,9 @@
     },
     "year": {
       "type": "string"
+    },
+    "showcase6": {
+      "type": "string"
     }
   }
 }
