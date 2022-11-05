@@ -24,14 +24,7 @@
       "type": "richtext",
       "pluginOptions": {}
     },
-    "role": {
-      "type": "richtext",
-      "pluginOptions": {}
-    },
     "cover": {
-      "type": "string"
-    },
-    "thumbnail": {
       "type": "string"
     },
     "showcase1": {
@@ -56,6 +49,18 @@
       "type": "string"
     },
     "showcase6": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "testimoni": {
+      "type": "richtext"
+    },
+    "client": {
+      "type": "string"
+    },
+    "role": {
       "type": "string"
     }
   }
