@@ -51,9 +51,6 @@
     "showcase6": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid"
-    },
     "testimoni": {
       "type": "richtext"
     },
@@ -61,6 +58,9 @@
       "type": "string"
     },
     "role": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
