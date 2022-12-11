@@ -62,6 +62,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "thumbnail1": {
+      "type": "string"
+    },
+    "thumbnail2": {
+      "type": "string"
     }
   }
 }
